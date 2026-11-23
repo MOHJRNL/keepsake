@@ -1,0 +1,8 @@
+# Keepsake
+
+> Claude Code plugin. Persistent short notes: /remember saves a note, /recall lists the latest. The newest five notes (max 800 characters) are added to the system prompt. Local storage, no network calls, no semantic search.
+
+Install (Claude Code): /plugin install keepsake --marketplace MOHJRNL/keepsake
+
+## Docs
+- [README](README.md): usage, limits, install, FAQ
