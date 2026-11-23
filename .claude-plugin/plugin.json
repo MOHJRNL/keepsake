@@ -1,6 +1,6 @@
 {
   "name": "keepsake",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Small persistent notes (replaces claude-mem): /remember and /recall, the newest few notes in the system prompt.",
   "author": {
     "name": "Noah Hendy"
