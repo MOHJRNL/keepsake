@@ -1,5 +1,5 @@
 {
-  "name": "keepsake",
+  "name": "keepsake-notes",
   "version": "0.1.1",
   "description": "Small persistent notes (replaces claude-mem): /remember and /recall, the newest few notes in the system prompt.",
   "author": {

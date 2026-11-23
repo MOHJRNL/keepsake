@@ -1,5 +1,5 @@
 {
   "name": "keepsake",
   "owner": { "name": "MOHJRNL" },
-  "plugins": [{ "name": "keepsake", "source": "./" }]
+  "plugins": [{ "name": "keepsake-notes", "source": "./" }]
 }

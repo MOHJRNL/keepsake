@@ -22,13 +22,13 @@
 ### Claude Code (recommended)
 
 ```text
-/plugin install keepsake --marketplace MOHJRNL/keepsake
+/plugin install keepsake-notes --marketplace MOHJRNL/keepsake
 ```
 
 Or from a shell:
 
 ```bash
-claude plugin install keepsake --marketplace MOHJRNL/keepsake
+claude plugin install keepsake-notes --marketplace MOHJRNL/keepsake
 ```
 
 Desktop app: **+** next to the prompt box, then **Plugins**, **Add marketplace** with `MOHJRNL/keepsake`, then **Add plugin**.
@@ -64,6 +64,12 @@ claude plugin test ./
 ## Test proof
 
 A recorded test run on a fresh clone: see [TEST-PROOF.md](TEST-PROOF.md).
+
+## What it sends and writes
+
+- **Writes:** your notes, in Claude Code's plugin store on your machine. Notes are kept until you delete the store.
+- **Sends to Claude:** the newest five notes (at most 800 characters in total) are added to the system prompt, so they go to Claude with each session's prompts.
+- **Network:** none. No model calls and no other services.
 
 ## License and commercial use
 
